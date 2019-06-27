@@ -48,11 +48,15 @@ $(function() {
         $.ajax({
             type: "DELETE",
             url: "/api/burgers/" + id
-        }).then(location.reload());
+        }).then(
+            function() {
+            console.log("deleted burger", id);
+            location.reload()
+            })
     });
-
+    $('.carousel').carousel({interval:4000});
 });
-$(document).ready(function(){
-$('.carousel').carousel({interval:4000});
-   console.log('ready');
-})
+// $(document).ready(function(){
+// $('.carousel').carousel({interval:4000});
+//    console.log('ready');
+// })

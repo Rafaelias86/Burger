@@ -1,0 +1,33 @@
+body, .jumbotron{
+    background: #1e1e1e url("../images/bg.gif");
+    font-family: 'Archivo Black', sans-serif;
+}
+ul,h4{
+    color:#EFEAE2;
+    
+}
+.jumbotron{
+    color: #D21F3C;
+    border-style: dashed;
+    border-color: #EFEAE2;
+}
+#main-head{
+    font-size: 70px;
+    text-shadow: 2px 2px #EFEAE2;
+}
+i{
+    font-size: 30px;
+}
+#second-head{
+    color:#EFEAE2;
+    font-size: 35px;
+}
+.card{
+    background: #1e1e1e url("../images/bg.gif");
+    color:#EFEAE2;
+    border: none;
+}
+.bd{
+    border-right-style: dashed;
+    border-color: #EFEAE2;
+}

@@ -51,4 +51,8 @@ $(function() {
         }).then(location.reload());
     });
 
+});
+$(document).ready(function(){
+$('.carousel').carousel({interval:4000});
+   console.log('ready');
 })
